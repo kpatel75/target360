@@ -1,0 +1,187 @@
+body{
+	font-weight: 300;
+	position: relative;
+}
+/*Page Navbar*/
+header .dropdown-menu{
+	display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    min-width: 218px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+header .dropdown-menu a{
+    padding: 5px 5px 5px 15px;
+    display: block;
+    color: #48fff0;
+    text-decoration:none;
+}
+header .dropdown-menu a:hover{
+	background: linear-gradient(to right, #02111d, #037bb5, #02111d);
+}
+header .dropdown:hover .dropdown-menu{
+	display: block;
+}
+.navbar-header img{
+	padding: 5px 0px 5px 0px;
+	width: 100px;
+	background: 80% fixed;
+}
+.nav{
+	padding: 28px 0px 0px 0px;
+}
+.navbar-fixed-top.scrolled{
+  background-color:rgba(0,0,0,1);
+}
+header .navbar-default{
+	background-color: transparent;
+	border: none;
+}
+header .navbar-default .navbar-nav a{
+	color: white;	
+}
+header .navbar-default .navbar-nav a:hover{
+	color: #5cbfcc;
+}
+
+/*Navbar Toggle*/
+header .navbar-toggle{
+	background-color: #5cbfcc;
+}
+header .navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+@media only screen and (max-width: 768px){
+		header .navbar-collapse.in{
+		background-color: rgba(0,0,0,.5);
+	}
+}
+
+/*Page service1*/
+#service1{
+	width: 100%;
+	height: auto;
+	background-image: url('../images/service1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+}
+#service1 h1{
+    font-family: 'Acme', sans-serif;
+	font-size:6vmin;
+	color: #e7ec51;
+	font-weight: bolder;
+	text-align: center;
+	padding: 230px 0px 150px 0px;	
+}
+#service1 .btn{
+	margin-left: 10px;
+	border-radius: 5px;
+	color: black;
+	border:inherit;
+	background: linear-gradient(to right, #dad299, #b0dab9);
+}
+
+/*Page service2*/
+#service2{
+	background: linear-gradient(to right, #ff9068, #fd746c);
+	text-align: center;
+}
+#service2 h2{
+	font-family: 'Acme', sans-serif;
+	font-size: 8vmin;
+	color: white;
+	padding: 60px 0px 10px 0px;	
+}
+#service2 p{
+	color: black;
+	font-size: 3.5vmin;
+	padding: 0px 0px 10px 0px;
+}
+#service2 .work{
+	padding: 0px 0px 60px 0px;
+	font-weight: bold;
+}
+
+/*Page service3*/
+#service3{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f9f8f4;		
+}
+#service3 p{
+	font-size: 2.5vmin;	
+}
+#service3 img{
+	padding:30px 0px 0px 0px;
+}
+#service3 h3{
+	font-weight: bold;	
+	padding: 10px 0px 0px 0px;
+}
+#service3 .col-sm-7 h2{
+	font-size: 4.5vmin;
+}
+#service3 .col-sm-7 h3{
+	font-size: 3.5vmin;
+}
+#service3 .btn{
+	background: linear-gradient(to right, #ff9068, #fd746c);
+	border-radius: 0px;
+	border: none;
+	color: black;
+	font-weight: bold;
+}
+.bttn{
+	margin-top: 20px;
+}
+
+/*Page Footer*/
+footer{
+	background-color: black; 
+	padding-top: 16px;
+	padding-bottom: 15px;
+}
+footer img{
+	width: 35px;
+}
+footer .text{
+	color: white;
+	font-size: 15px;
+}
+
+@media only screen and (max-width: 400px)
+{
+	#service3 button{
+		font-size: 3vmin;
+	}
+	#service1 h1{
+		font-size: 6vmin;
+		padding-top: 170px;
+		padding-bottom: 120px;
+	}
+	#service2 h2{
+		font-size: 10vmin;
+		padding-top: 20px;
+	}
+	#service2 p{
+		font-size: 5.5vmin;
+	}
+	#service2 .work{
+		padding-bottom: 20px;
+	}
+	#service3 p{
+		font-size: 5.5vmin;
+	}
+	#service3 .col-sm-7 h2{
+		font-size: 6.7vmin;
+	}
+	#service3 .col-sm-7 h3{
+		font-size: 6vmin;
+	}
+	#service3 .bttn{
+		margin-left: 30px;
+	}
+}
+

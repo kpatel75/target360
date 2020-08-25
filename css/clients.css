@@ -1,0 +1,158 @@
+body{
+	font-weight: 300;
+	position: relative;
+}
+/*Page Navbar*/
+header .dropdown-menu{
+	display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    min-width: 218px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+header .dropdown-menu a{
+    padding: 5px 5px 5px 15px;
+    display: block;
+    color: #48fff0;
+    text-decoration:none;
+}
+header .dropdown-menu a:hover{
+	background: linear-gradient(to right, #02111d, #037bb5, #02111d);
+}
+header .dropdown:hover .dropdown-menu{
+	display: block;
+}
+.navbar{
+	padding: 0px 0px 0px 0px;
+}
+.navbar-header img{
+	padding: 5px 0px 5px 0px;
+	width: 100px;
+	background: 80% fixed;
+}
+.nav{
+	padding: 28px 0px 0px 0px;
+}
+.navbar-fixed-top.scrolled{
+  background-color:rgba(0,0,0,1);
+}
+header .navbar-default{
+	background-color: transparent;
+	border: none;
+}
+header .navbar-default .navbar-nav a{
+	color: white;	
+}
+header .navbar-default .navbar-nav a:hover{
+	color: #5cbfcc;
+}
+
+/*Navbar Toggle*/
+header .navbar-toggle{
+	background-color: #5cbfcc;
+}
+header .navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+@media only screen and (max-width: 768px){
+		header .navbar-collapse.in{
+		background-color: rgba(0,0,0,.5);
+	}
+}
+
+/*Page client*/
+#client{
+	width: 100%;
+	height: auto;
+	background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url('../images/cesc.png');
+/*	background-image: url('../images/cesc.png');*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+}
+#client h1{
+	padding-top: 190px;
+	font-family: 'Acme', sans-serif;
+	color: #fc79a4;
+	font-size: 6vmin;
+}
+#client p{
+	font-size: 3.5vmin;
+	font-family: 'PT Sans', sans-serif;
+	color: #efefd4;		
+	padding: 10px 0px 80px 0px;	
+}
+
+/*Page client1*/
+#client1{
+	width: 100%;
+	height: auto;
+	background-image: url('../images/peter1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+}
+#client1 h1{
+	padding-top: 100px;
+	font-family: 'Acme', sans-serif;
+	color: #fc79a4;
+	font-size: 6vmin;
+}
+#client1 p{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 3.5vmin;
+	color: white;		
+	padding: 15px 0px 100px 0px;	
+}
+/*Page Network*/
+.network{
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.network img{
+	width: 150px;
+	margin-left: 20px;
+}
+.network .img1{
+	padding-top: 0px;
+	width: 200px;
+}
+.network .img3{
+	padding-top: 15px;
+	width: 160px;
+}
+.network .img5{
+	width: 120px;
+}
+.network .img6{
+	width: 200px;
+}
+.network .img7{
+	width: 200px;
+}
+/*Page Footer*/
+footer{
+	background-color: black; 
+	padding-top: 16px;
+	padding-bottom: 15px;
+}
+footer img{
+	width: 35px;
+}
+footer .text{
+	color: white;
+	font-size: 15px;
+}
+
+@media only screen and (max-width: 400px){
+	#client p{
+		font-size: 5vmin;
+	}
+	#client1 p{
+		font-size: 5vmin;
+	}
+	.network{
+		margin-left: 49px;
+	}
+}

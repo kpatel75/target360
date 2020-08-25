@@ -1,0 +1,144 @@
+body{
+	font-weight: 300;
+	position: relative;
+}
+/*Page Navbar*/
+header .dropdown-menu{
+	display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    min-width: 218px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+header .dropdown-menu a{
+    padding: 5px 5px 5px 15px;
+    display: block;
+    color: #48fff0;
+    text-decoration:none;
+}
+header .dropdown-menu a:hover{
+	background: linear-gradient(to right, #02111d, #037bb5, #02111d);
+}
+header .dropdown:hover .dropdown-menu{
+	display: block;
+}
+.navbar{
+	padding: 0px 0px 0px 0px;
+}
+.navbar-header img{
+	padding: 5px 0px 5px 0px;
+	width: 100px;
+	background: 80% fixed;
+}
+.nav{
+	padding: 28px 0px 0px 0px;
+}
+.navbar-fixed-top.scrolled{
+  background-color:rgba(0,0,0,1);
+}
+header .navbar-default{
+	background-color: transparent;
+	border: none;
+}
+header .navbar-default .navbar-nav a{
+	color: white;	
+}
+header .navbar-default .navbar-nav a:hover{
+	color: #5cbfcc;
+}
+
+/*Navbar Toggle*/
+header .navbar-toggle{
+	background-color: #5cbfcc;
+}
+header .navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+@media only screen and (max-width: 768px){
+		header .navbar-collapse.in{
+		background-color: rgba(0,0,0,.5);
+	}
+}
+
+/*Page buzzword*/
+#buzzword{
+	width: 100%;
+	height: auto;
+	background-image: url('../images/about1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+}
+#buzzword{
+	text-align: center;
+	padding: 200px 0px 200px 0px;
+}
+#buzzword h1{
+    font-family: 'Acme', sans-serif;
+    font-style: italic;
+	font-size: 7vmin;
+	color: #baff58;
+	text-shadow: 2px 2px 5px black;
+	font-weight: bolder;
+	text-align: center;	
+}
+#buzzword p{
+	color: white;
+	font-size: 4.5vmin;
+	font-weight: bold;
+}
+
+/*Page about*/
+#about{
+	padding: 100px 0px 50px 0px;
+	background-color: #f9f8f4;		
+}
+#about p{
+	font-size: 2.6vmin;	
+}
+#about .img2{
+	padding:30px 40px 0px 0px;
+}
+#about h2{
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-size: 4vmin;
+	font-weight: bolder;
+}
+
+/*Page Footer*/
+footer{
+	background-color: black; 
+	padding-top: 16px;
+	padding-bottom: 15px;
+}
+footer img{
+	width: 35px;
+}
+footer .text{
+	color: white;
+	font-size: 15px;
+}
+@media only screen and (max-width: 400px){
+	#buzzword p{
+		font-size: 5.5vmin;
+	}
+	#buzzword{
+		padding: 140px 0px 100px 0px;
+	}
+	#about .img1{
+		margin-left: 20px;
+	}
+	#about .img2{
+		margin-left: 10px;
+	}
+	#about p{
+		font-size: 5vmin;
+	}
+	#about h2{
+		font-size: 6vmin;
+	}
+}
+
+

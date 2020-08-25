@@ -1,0 +1,134 @@
+body{
+	font-weight: 300;
+	position: relative;
+}
+/*Page Navbar*/
+header .dropdown-menu{
+	display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    min-width: 218px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+header .dropdown-menu a{
+    padding: 5px 5px 5px 15px;
+    display: block;
+    color: #48fff0;
+    text-decoration:none;
+}
+header .dropdown-menu a:hover{
+	background: linear-gradient(to right, #02111d, #037bb5, #02111d);
+}
+header .dropdown:hover .dropdown-menu{
+	display: block;
+}
+.navbar{
+	padding: 0px 0px 0px 0px;
+}
+.navbar-header img{
+	padding: 5px 0px 5px 0px;
+	width: 100px;
+	background: 80% fixed;
+}
+.nav{
+	padding: 28px 0px 0px 0px;
+}
+.navbar-fixed-top.scrolled{
+  background-color:rgba(0,0,0,1);
+}
+header .navbar-default{
+	background-color: transparent;
+	border: none;
+}
+header .navbar-default .navbar-nav a{
+	color: white;	
+}
+header .navbar-default .navbar-nav a:hover{
+	color: #5cbfcc;
+}
+
+/*Navbar Toggle*/
+header .navbar-toggle{
+	background-color: #5cbfcc;
+}
+header .navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+@media only screen and (max-width: 768px){
+		header .navbar-collapse.in{
+		background-color: rgba(0,0,0,.5);
+	}
+}
+
+/*Page web*/
+#web{
+	width: 100%;
+	height: auto;
+	background-image: url('../images/web.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	text-align: center;
+}
+#web h1{
+	padding-top: 190px;
+	color: white;
+	font-size: 4vmin;
+}
+#web p{
+    font-family: 'Acme', sans-serif;
+	font-size: 6vmin;
+	color: #f7d235;
+	padding: 0px 0px 10px 0px;
+	font-weight: bolder;		
+}
+.btn{
+	margin-bottom: 50px;
+	border-radius: 0px;
+	border: none;
+	padding: 15px 35px 15px 35px;
+}
+
+/*Page web1*/
+#web1{
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+#web1 p{
+	font-size: 2.5vmin;
+}
+#web1 img{
+	padding-bottom: 50px;
+	margin: auto;
+}
+
+/*Page Footer*/
+footer{
+	background-color: black; 
+	padding-top: 16px;
+	padding-bottom: 15px;
+}
+footer img{
+	width: 35px;
+}
+footer .text{
+	color: white;
+	font-size: 15px;
+}
+
+@media only screen and (max-width: 400px){
+	#web h1{
+		padding-top: 145px;
+	}
+	#web{
+		padding-bottom: 35px;
+	}
+	#web1 h2{
+		font-size: 6vmin;
+		font-weight: bold;
+	}
+	#web1 p{
+		font-size: 5.5vmin;
+	}
+}

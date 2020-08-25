@@ -1,0 +1,227 @@
+body{
+	font-weight: 300;
+	position: relative;
+}
+/*Page Navbar*/
+header .dropdown-menu{
+	display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    min-width: 218px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+header .dropdown-menu a{
+    padding: 5px 5px 5px 15px;
+    display: block;
+    color: #48fff0;
+    text-decoration:none;
+}
+header .dropdown-menu a:hover{
+	background: linear-gradient(to right, #02111d, #037bb5, #02111d);
+}
+header .dropdown:hover .dropdown-menu{
+	display: block;
+}
+.navbar-header img{
+	padding: 5px 0px 5px 0px;
+	width: 100px;
+	background: 80% fixed;
+}
+.nav{
+	padding: 28px 0px 0px 0px;
+}
+.navbar-fixed-top.scrolled{
+  background-color:rgba(0,0,0,1);
+}
+header .navbar-default{
+	background-color: transparent;
+	border: none;
+}
+header .navbar-default .navbar-nav a{
+	color: white;	
+}
+header .navbar-default .navbar-nav a:hover{
+	color: #5cbfcc;
+}
+
+/*Navbar Toggle*/
+header .navbar-toggle{
+	background-color: #5cbfcc;
+}
+header .navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+@media only screen and (max-width: 768px){
+		header .navbar-collapse.in{
+		background-color: rgba(0,0,0,.5);
+	}
+}
+
+/*Page result*/
+#result{
+	width: 100%;
+	height: auto;
+	background-image: url('../images/target3601.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+}
+
+#result h1{
+    font-family: 'Acme', sans-serif;
+    font-style: italic;
+	font-size: 7.5vmin;
+	color: #e7ec51;
+	font-weight: bolder;
+	text-align: center;
+	padding: 250px 0px 200px 0px;	
+}
+/*Page business*/
+#business{
+	background-image:linear-gradient(to bottom, #EEF08A,#819A2D);
+}
+
+#business h2{
+	font-family: 'Acme', sans-serif;
+	font-size: 8vmin;
+	font-style: italic;
+	padding: 70px 0px 0px 0px;	
+}
+#business p{
+	color: #17236d;
+	font-size: 3.5vmin;
+	padding: 10px 0px 20px 0px;
+}
+#business h2,p{
+	text-align:  center;
+}
+#business img{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#business .stug{
+	margin-top: 50px;
+	margin-bottom: 100px;
+	padding: 40px;
+	font-size: 3.1vmin;
+	color: white;
+    text-shadow: 2px 1	px 4px #000000;
+	font-family: 'Acme', sans-serif;
+	font-style: italic;
+	background-color:rgba(8, 6, 7, 0.20);
+	border-radius: 50px 10px;
+}
+#business span{
+	color: blue;
+	font-size: 3.3vmin;
+}
+
+/*Page wheelhouse*/
+#wheelhouse{
+	width: 100%;
+	height: auto;
+	background-image: url('../images/target.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+}
+#wheelhouse h2,p{
+	text-align: center;
+}
+#wheelhouse h2{
+	font-family: 'Acme', sans-serif;
+	font-size: 8vmin;
+	font-style: italic;
+	padding: 75px 0px 0px 0px;
+	color: #ff367b;
+}
+#wheelhouse p{
+	color: white;
+	/*font-size: 23px;*/
+	font-size: 3.5vmin;
+	padding: 15px 0px 75px 0px;
+}
+
+/*Page services*/
+#services{
+	text-align: center;
+	padding: 100px 0px 0px 0px;
+	background: linear-gradient(#fdfdfa, #f9fbcc);
+}
+#services p{
+	margin-bottom: 100px;
+}
+
+#services a{
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+#services a:hover{
+	color: #f7295e;
+}
+
+/*Page Footer*/
+footer{
+	background-color: black; 
+	padding-top: 16px;
+	padding-bottom: 15px;
+}
+footer img{
+	width: 35px;
+}
+footer .text{
+	color: white;
+	font-size: 15px;
+}
+
+@media only screen and (max-width: 400px)
+{
+	#result h1{
+		padding-top: 140px;
+		padding-bottom: 100px;
+	}
+	#business h2{
+		font-size: 6vmin; 
+		padding-top: 40px;
+	}
+	#business p{
+		font-size: 5vmin; 
+	}
+	#business .stug{
+		padding: 20px;
+		font-size: 5vmin; 
+	}
+	#wheelhouse h2{
+		padding-top: 20px;
+	}
+	#wheelhouse h2{
+		font-size: 6vmin; 
+	}
+	#wheelhouse p{
+		font-size: 5vmin; 
+		padding-bottom: 25px;
+	}
+	#services p{
+		margin-bottom: 50px;
+	}
+	#services {
+		padding-top: 50px;
+	}
+	.navbar-header img{
+		width: 72px;
+		padding: 3px 0px 0px 20px;
+	}
+}
+@media only screen and (max-width: 995px)
+{
+	#services p{
+		font-size: 15px;
+	}
+}
+
+
+

@@ -1,0 +1,183 @@
+body{
+	font-weight: 300;
+	position: relative;
+}
+/*Page Navbar*/
+header .dropdown-menu{
+	display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    min-width: 218px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+header .dropdown-menu a{
+    padding: 5px 5px 5px 15px;
+    display: block;
+    color: #48fff0;
+    text-decoration:none;
+}
+header .dropdown-menu a:hover{
+	background: linear-gradient(to right, #02111d, #037bb5, #02111d);
+}
+header .dropdown:hover .dropdown-menu{
+	display: block;
+}
+.navbar{
+	padding: 0px 0px 0px 0px;
+}
+.navbar-header img{
+	padding: 5px 0px 5px 0px;
+	width: 100px;
+	background: 80% fixed;
+}
+.nav{
+	padding: 28px 0px 0px 0px;
+}
+.navbar-fixed-top.scrolled{
+  background-color:rgba(0,0,0,1);
+}
+header .navbar-default{
+	background-color: transparent;
+	border: none;
+}
+header .navbar-default .navbar-nav a{
+	color: white;	
+}
+header .navbar-default .navbar-nav a:hover{
+	color: #5cbfcc;
+}
+
+/*Navbar Toggle*/
+header .navbar-toggle{
+	background-color: #5cbfcc;
+}
+header .navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+@media only screen and (max-width: 768px){
+		header .navbar-collapse.in{
+		background-color: rgba(0,0,0,.5);
+	}
+}
+
+/*Page disad*/
+#disad{
+	width: 100%;
+	height: auto;
+	background-image: url('../images/disad.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	text-align: center;
+}
+#disad h1{
+	padding-top: 200px;
+	color: #48e0f4;
+	font-size: 4.5vmin;
+}
+#disad p{
+    font-family: 'Acme', sans-serif;
+	font-size: 6vmin;
+	display: block;
+	color: #e7ec51;
+	padding: 0px 0px 70px 0px;
+	font-weight: bolder;		
+}
+
+/*Page disad1*/
+#disad1{
+	background-image:linear-gradient(to bottom, #EEF08A,#819A2D);
+	text-align: center;
+}
+#disad1 h2{
+	font-family: 'Acme', sans-serif;
+	font-size: 7vmin;
+	color: white;
+	padding: 60px 0px 10px 0px;	
+}
+#disad1 p{
+	font-size: 3vmin;
+	padding-bottom: 75px;
+}
+#disad1 span{
+	font-weight: bold;
+}
+
+/*Page disad2*/
+
+#disad2 h2{
+	font-size: 5vmin;
+	color: #f7d235;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 50px;
+	text-align: center;
+}
+#disad2 p{
+	font-size: 3vmin;
+	color: #black;
+	padding-top: 10px;
+	text-align: center;
+}
+#disad2 .large{
+	font-size: 5vmin;
+	color: #f7d235;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;	
+}
+#disad2 #accordion button{
+	text-decoration: none;
+}
+#disad2 #accordion hr{
+	margin: 0px;
+}
+#disad2 .ads1{
+	margin: auto;
+	margin-bottom: 20px;
+}
+#disad2 .geo{
+	text-decoration: none;
+	color: black;
+	font-size: 3vmin;
+}
+#one{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+/*Page Footer*/
+footer{
+	background-color: black; 
+	padding-top: 16px;
+	padding-bottom: 15px;
+}
+footer img{
+	width: 35px;
+}
+footer .text{
+	color: white;
+	font-size: 15px;
+}
+
+@media only screen and (max-width: 400px){
+	#disad h1{
+		padding: 125px 0px 0px 0px;
+	}
+	#disad1 h2{
+		font-size: 6.5vmin;
+		padding-top: 35px;
+	}
+	#disad1 p{
+		font-size: 5.5vmin;
+		padding-bottom: 35px;
+		
+	}
+	#disad2 p{
+		font-size: 5.4vmin;
+	}
+	#one .geo{
+		font-size: 5.4vmin;
+	}
+}

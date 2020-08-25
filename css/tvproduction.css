@@ -1,0 +1,148 @@
+body{
+	font-weight: 300;
+	position: relative;
+}
+/*Page Navbar*/
+header .dropdown-menu{
+	display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    min-width: 218px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+header .dropdown-menu a{
+    padding: 5px 5px 5px 15px;
+    display: block;
+    color: #48fff0;
+    text-decoration:none;
+}
+header .dropdown-menu a:hover{
+	background: linear-gradient(to right, #02111d, #037bb5, #02111d);
+}
+header .dropdown:hover .dropdown-menu{
+	display: block;
+}
+.navbar{
+	padding: 0px 0px 0px 0px;
+}
+.navbar-header img{
+	padding: 5px 0px 5px 0px;
+	width: 100px;
+	background: 80% fixed;
+}
+.navbar-fixed-top.scrolled{
+  background-color:rgba(0,0,0,1);
+}
+header .navbar-default{
+	background-color: transparent;
+	border: none;
+}
+header .navbar-default .navbar-nav a{
+	color: white;	
+}
+header .navbar-default .navbar-nav a:hover{
+	color: #5cbfcc;
+}
+
+/*Navbar Toggle*/
+header .navbar-toggle{
+	background-color: #5cbfcc;
+}
+header .navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+@media only screen and (max-width: 768px){
+		header .navbar-collapse.in{
+		background-color: rgba(0,0,0,.5);
+	}
+}
+
+/*Navbar Toggle*/
+header .navbar-toggle{
+	background-color: #5cbfcc;
+}
+header .navbar-default .navbar-toggle .icon-bar{
+	background-color: white;
+}
+@media only screen and (max-width: 768px){
+		header .navbar-collapse.in{
+		background-color: rgba(0,0,0,.5);
+	}
+}
+
+/*Page TV*/
+#tv{
+	width: auto;
+	height: auto;
+	background: url('../images/tv.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	padding-bottom: 100px;
+}
+#tv h1{
+    font-family: 'Acme', sans-serif;
+	font-size: 60px;
+	color: #e1e32b;
+	font-weight: bolder;
+	text-align: center;
+	padding: 150px 0px 50px 0px;	
+}
+#tv p{
+	color: #e7e7e2;
+	font-size: 20px;
+	padding: 0px 0px 50px 0px;
+}
+.net{
+	padding: 0px 30px 100px 0px;	
+}
+@media only screen and (max-width: 400px){
+	.net{
+		padding-left: 80px;
+	}
+	.pro{
+		margin-left:  55px;
+	}
+}
+@media only screen and (max-width: 974px){
+	.net{
+		padding-left: 80px;
+	}
+	.pro{
+		margin-left:  55px;
+	}
+}
+
+.pro{
+	padding-left: 35px;
+	padding-bottom: 20px;
+}
+#tv .btn2{
+	margin-left: 10px;
+	border-radius: 5px;
+	color: black;
+	border:inherit;
+	background: linear-gradient(to right, #dad299, #b0dab9);
+}
+#tv .btn1{
+	border-radius: 5px;
+	border:inherit;
+	color: black;
+	background: linear-gradient(to right, #dad299, #b0dab9);
+}
+
+
+/*Page Footer*/
+footer{
+	background-color: black; 
+	padding-top: 16px;
+	padding-bottom: 15px;
+}
+footer img{
+	width: 35px;
+}
+footer .text{
+	color: white;
+	font-size: 15px;
+}
