@@ -3,9 +3,9 @@
   $visitor_email = $_POST['email'];
   $message = $_POST['message'];
   
-  $email_from = 'info@target360.media';
-  $email_subject = "Target360.media";
-  $email_body = "You have received a new message from the Target360.media\n\n". 
+  $email_from = 'komal.patel121@yahoo.com';
+  $email_subject = "Message";
+  $email_body = "You have received a new message from Komal Patel\n\n". 
                             "Name: $name.\n".
                             "Email: $visitor_email.\n\n".
                             "Message: $message.\n";
